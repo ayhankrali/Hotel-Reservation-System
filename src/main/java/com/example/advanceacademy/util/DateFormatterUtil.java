@@ -14,6 +14,6 @@ public class DateFormatterUtil {
 
     public static LocalDate getDateFromDateTime(Instant date) {
         LocalDate ld = LocalDate.ofInstant(date, ZoneId.of("UTC+3"));
-       return ld;
+       return ld ;
     }
 }
